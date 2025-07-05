@@ -735,6 +735,11 @@ footer
 	{
 		display:flex !important;
 	}
+
+	body
+	{
+		font_size:16px;
+	}
 	
 }
 
@@ -855,7 +860,7 @@ footer
 
 	body
 	{
-		font_size:16px;
+		font_size:14px;
 	}
 
 	
