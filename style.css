@@ -738,7 +738,7 @@ footer
 
 	body
 	{
-		font_size:16px;
+		font_size:16px !important;
 	}
 	
 }
@@ -860,7 +860,7 @@ footer
 
 	body
 	{
-		font_size:14px;
+		font_size:14px !important; 
 	}
 
 	
