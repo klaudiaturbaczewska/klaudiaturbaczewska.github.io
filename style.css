@@ -712,6 +712,11 @@ footer
 	{
 		padding-left:50px;
 	}
+
+	#part5
+	{
+		padding-left:50px;
+	}
 	
 		#gallery 
 	{
@@ -730,15 +735,6 @@ footer
 	{
 		display:flex !important;
 	}
-	
-	#part3dot5
-	{
-		padding-left:50px;
-	}
-	
-	
-	
-
 	
 }
 
@@ -843,6 +839,11 @@ footer
 		padding-left:30px;
 		padding-right:30px;
 	}
+
+	#part5
+	{
+		padding-left:20px;
+	}
 }
 
 @media only screen and (max-width: 500px) 
@@ -851,6 +852,13 @@ footer
 	{
 		column-count: 2;
 	}
+
+	body
+	{
+		font_size:16px;
+	}
+
+	
 }
 
 
@@ -873,9 +881,6 @@ footer
 		padding-right:10px;
 	}
 
-	body
-	{
-		font_size:16px;
-	}
+	
 }
 
