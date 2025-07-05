@@ -872,5 +872,10 @@ footer
 		padding-left:10px;
 		padding-right:10px;
 	}
+
+	body
+	{
+		font_size:16px;
+	}
 }
 
