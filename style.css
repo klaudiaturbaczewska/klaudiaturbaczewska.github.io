@@ -481,14 +481,14 @@ nav a:hover::before
 
 #part4 
 {
-  padding-left: 150px;
-  padding-right:150px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 50px;
-  background: url("pics/wave3.svg") no-repeat bottom;
-  background-size: 100%;
+  	padding-left: 150px;
+  	padding-right:150px;
+  	display: flex;
+  	flex-direction: column;
+  	text-align: center;
+  	padding-top: 50px;
+  	background: url("pics/wave3.svg") no-repeat bottom;
+  	background-size: 100%;
 }
 
 #gallery 
@@ -554,7 +554,8 @@ nav a:hover::before
 	position: relative;
 }
 
-.con a::after {
+.con a::after 
+{
   content: "";
   position: absolute;
   left: 0;
@@ -565,7 +566,8 @@ nav a:hover::before
   transition: width 0.3s ease;
 }
 
-.con a:hover::after {
+.con a:hover::after 
+{
   width: 100%;
 }
 
