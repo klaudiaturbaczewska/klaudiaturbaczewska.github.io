@@ -310,7 +310,7 @@ nav a:hover::before
 {
 	border-left:2px solid rgba(113,66,140,1);
 	padding:20px;
-	margin-left:28%;
+	margin-left:27%;
 }
 
 #bottomline
@@ -324,14 +324,14 @@ nav a:hover::before
 {
 	border-left:2px solid rgb(110,121,255);
 	padding:20px;
-	margin-right:33%;
+	margin-right:28%;
 }
 
 #art
 {
 	border-left:2px solid rgb(254,138,255);
 	padding:20px;
-	margin-right:3%;
+	margin-right:1%;
 }
 
 #line
