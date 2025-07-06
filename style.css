@@ -324,14 +324,14 @@ nav a:hover::before
 {
 	border-left:2px solid rgb(110,121,255);
 	padding:20px;
-	margin-right:28%;
+	margin-left:6%;
 }
 
 #art
 {
 	border-left:2px solid rgb(254,138,255);
 	padding:20px;
-	margin-right:1%;
+	margin-left:27%;
 }
 
 #line
@@ -738,7 +738,7 @@ footer
 
 	body
 	{
-		font_size:16px !important;
+		font-size:16px !important;
 	}
 	
 }
@@ -860,7 +860,7 @@ footer
 
 	body
 	{
-		font_size:14px !important; 
+		font-size:14px !important; 
 	}
 
 	
