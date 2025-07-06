@@ -20,3 +20,15 @@ jobs:
         with:
           path: .  # katalog do deployu, tu cały projekt
       - uses: actions/deploy-pages@v4
+
+      steps:
+  - uses: actions/checkout@v4
+  - name: Build site
+    run: |
+      npm install
+      npm run build
+  - uses: actions/configure-pages@v5
+  - uses: actions/upload-pages-artifact@v3
+    with:
+      path: ./build # lub inny folder z wygenerowanymi plikami
+  - uses: actions/deploy-pages@v4
