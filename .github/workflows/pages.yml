@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy static site to GitHub Pages
 
 on:
   push:
@@ -16,15 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build site
-        run: |
-          npm install
-          npm run build
-
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build   # folder z wygenerowanymi plikami (np. build/dist)
+          path: .   # tu wskazujesz katalog ze stroną – np. ".", "public", "docs"
 
       - uses: actions/deploy-pages@v4
